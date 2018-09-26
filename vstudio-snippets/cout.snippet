@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>endl</Title>
+      <Author>Nicolas Cunningham</Author>
+      <Description>Effectue un std::endl;</Description>
+      <Shortcut>endl</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP">
+        <![CDATA[std::endl; $selected$ $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+
+	<CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Cout endl</Title>
+			<Author>Nicolas Cunningham</Author>
+			<Description>Effectue un std::cout et std::endl;</Description>
+			<shortcut>coutendl</shortcut>
+        </Header>
+        <Snippet>
+		<Declarations>
+		    <Literal>
+                <ID>texte</ID>
+                <Default></Default>
+            </Literal>
+		</Declarations>
+            <Code Language="CPP">
+        <![CDATA[std::cout << $texte$ << std::endl; $selected$ $end$]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+	
+	<CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Cout</Title>
+      <Author>Nicolas Cunningham</Author>
+      <Description>Effectue un std::cout</Description>
+      <Shortcut>cout</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CPP">
+        <![CDATA[std::cout <<  $selected$ $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
