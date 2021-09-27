@@ -1,0 +1,20 @@
+{
+	"includeguard": {
+		"prefix": "ifndef",
+		"body": [
+		  "#ifndef ${1:nomfichier}_H__",
+		  "#define ${1:nomfichier}_H__",
+		  "${2://code ici}",
+		  "#endif"
+		],
+		"description": "includeguard"
+	  },
+
+	  "std::cout": {
+		"prefix": "cout",
+		"body": [
+		  "std::cout << ${1:output} << std::endl;"
+		],
+		"description": "std::cout"
+	  }
+}
